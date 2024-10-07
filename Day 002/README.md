@@ -6,19 +6,20 @@
 
 ### Password Strength Checker
 
-**String Length:**  
+**String Length:**
 We use `len(password)` to check the length of the password.
 
 **String Methods:**
 
 - `lower()`: Used to convert the input to lowercase when checking for the quit command.
 
-**String Comparison:**  
+**String Comparison:**
 We use `==` to compare strings (e.g., checking if the input is 'q').
 
 **Regular Expressions (regex):**
 
 We use the `re` module to search for patterns in the password.
+
 - `re.search(r"[A-Z]", password)`: Checks for uppercase letters.
 - `re.search(r"[a-z]", password)`: Checks for lowercase letters.
 - `re.search(r"\d", password)`: Checks for digits.
@@ -28,10 +29,10 @@ We use the `re` module to search for patterns in the password.
 
 We use f-strings (e.g., `f"Password strength: {strength}"`) to format output strings.
 
-**String in List:**  
+**String in List:**
 We store feedback messages as strings in a list.
 
-**String Concatenation:**  
+**String Concatenation:**
 Implicitly used when adding feedback messages to the list.
 
 ### To Run This Project:
