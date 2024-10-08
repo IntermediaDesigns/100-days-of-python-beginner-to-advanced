@@ -2,6 +2,8 @@
 
 This is a simple To-Do List application built using Python. It demonstrates key concepts related to lists and list comprehensions.
 
+![To Do List](/Day%20003/todo.png)
+
 ## Key Concepts
 
 ### List Initialization
