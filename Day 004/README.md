@@ -29,18 +29,6 @@ contacts = {"John Doe": {"phone": "(123) 456-7890", "email": "john@example.com"}
 
 Each contact's information is stored as a dictionary within the main `contacts` dictionary.
 
-### Set Usage
-
-In `get_unique_area_codes()`, we use a set to store unique area codes. Sets automatically eliminate duplicates, making them perfect for this use case.
-
-### Set Methods
-
-- `area_codes.add(area_code)`: Adds a new area code to the set.
-
-### Set Operations
-
-We convert the set to a sorted list when displaying area codes: `sorted(area_codes)`
-
 ## To Run This Project
 
 1. Copy the code into a new Python file (e.g., `contact_book.py`).
