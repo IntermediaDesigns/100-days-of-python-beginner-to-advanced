@@ -1,6 +1,7 @@
 # Day 4 - Dictionaries and sets - Mini Project: Contact Book
 
 # Contact Book Application
+![Contact Book](/Day%20004/contact.png)
 
 ## Key Concepts
 
