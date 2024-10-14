@@ -4,6 +4,8 @@
 
 This project will help you practice importing and using both built-in and custom modules, as well as understanding how to structure your code into reusable components.
 
+![Quote Generator](/Day%20009/quote.png)
+
 ## Project Structure
 
 ```
