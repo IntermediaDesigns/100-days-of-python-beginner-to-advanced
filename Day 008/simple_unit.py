@@ -39,7 +39,7 @@ def display_menu():
     print("7. Kilograms to Pounds")
     print("8. Pounds to Kilograms")
     print("9. Quit")
-
+    print()
 
 def perform_conversion(choice, value):
     conversions = {
@@ -57,6 +57,7 @@ def perform_conversion(choice, value):
         func, unit = conversions[choice]
         result = func(value)
         print(f"{value} {unit} is {result:.2f} {unit}")
+        print()
     else:
         print("Invalid choice")
 
@@ -67,7 +68,7 @@ def main():
     while True:
         display_menu()
         choice = get_numeric_input("Enter your choice: ")
-
+        print()
         if choice == 9:
             print("Thank you for using the program.")
             break
@@ -75,6 +76,7 @@ def main():
         if 1 <= choice <= 8:
             value = get_numeric_input("Enter the value: ")
             perform_conversion(int(choice), value)
+            print()
         else:
             print("Invalid choice. Please select a number from 1 to 9.")
 
