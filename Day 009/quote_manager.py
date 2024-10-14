@@ -9,5 +9,10 @@ def add_quote(quotes, quote, author):
     quotes.append((quote, author))
 
 
-def remove_quote(quotes, index):
-    return quotes.pop(index)
+def remove_quote(quotes, quote_to_remove, author_to_remove):
+    for index, (quote, author) in enumerate(quotes):
+        if quote == quote_to_remove and author == author_to_remove:
+            return quotes.pop(index)
+    print("Quote not found.")
+    print()
+    return None

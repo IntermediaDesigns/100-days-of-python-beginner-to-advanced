@@ -18,13 +18,20 @@ def main():
             print()
         elif choice == 2:
             new_quote = get_user_input("Enter a new quote: ")
-            add_quote(quotes, new_quote)
+            author = get_user_input("Enter the author of the quote: ")
+            print()
+            add_quote(quotes, new_quote, author)
             print("Quote added successfully!")
             print()
         elif choice == 3:
             quote_to_remove = get_user_input("Enter the quote you want to remove: ")
-            remove_quote(quotes, quote_to_remove)
-            print("Quote removed successfully!")
+            author_to_remove = get_user_input(
+                "Enter the author of the quote you want to remove: "
+            )
+            print()
+            result = remove_quote(quotes, quote_to_remove, author_to_remove)
+            if result is not None:
+                print("Quote removed successfully!")
             print()
         elif choice == 4:
             print("Thank you for using the Quote of the Day App!")
