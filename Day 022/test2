@@ -1,0 +1,19 @@
+{
+    "timestamp": "2024-10-29 23:07:49",
+    "statistics": {
+        "total_words": 1,
+        "unique_words": 1,
+        "average_word_length": 7.0,
+        "lexical_diversity": 1.0,
+        "most_common_length": 7
+    },
+    "word_frequencies": {
+        "balloon": 1
+    },
+    "top_words": {
+        "balloon": 1
+    },
+    "length_distribution": {
+        "7": 1
+    }
+}
