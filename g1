@@ -1,0 +1,43 @@
+{
+    "timestamp": "2024-11-01 16:43:49",
+    "players": {
+        "Player 1": [
+            {
+                "rank": "A",
+                "suit": "\u2663",
+                "value": 14
+            },
+            {
+                "rank": "8",
+                "suit": "\u2665",
+                "value": 8
+            },
+            {
+                "rank": "2",
+                "suit": "\u2660",
+                "value": 2
+            },
+            {
+                "rank": "4",
+                "suit": "\u2660",
+                "value": 4
+            },
+            {
+                "rank": "7",
+                "suit": "\u2663",
+                "value": 7
+            },
+            {
+                "rank": "3",
+                "suit": "\u2660",
+                "value": 3
+            },
+            {
+                "rank": "8",
+                "suit": "\u2660",
+                "value": 8
+            }
+        ]
+    },
+    "deck_remaining": 45
+}
