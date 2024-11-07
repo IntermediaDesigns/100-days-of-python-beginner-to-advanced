@@ -1,0 +1,30 @@
+{
+    "tree": {
+        "value": 5,
+        "left": null,
+        "right": null
+    },
+    "history": [
+        {
+            "operation": "insert",
+            "value": 5,
+            "comparisons": 0,
+            "time_taken": 6.198883056640625e-06,
+            "timestamp": 1730998138.1674836
+        },
+        {
+            "operation": "search",
+            "value": 3,
+            "comparisons": 2,
+            "time_taken": 5.4836273193359375e-06,
+            "timestamp": 1730998147.5868776
+        },
+        {
+            "operation": "search",
+            "value": 5,
+            "comparisons": 1,
+            "time_taken": 4.0531158447265625e-06,
+            "timestamp": 1730998156.84273
+        }
+    ]
+}
