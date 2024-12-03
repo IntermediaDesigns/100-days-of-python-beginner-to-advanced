@@ -1,0 +1,25 @@
+{
+    "people": [
+        {
+            "id": "1",
+            "name": "Marilyn",
+            "birth_date": "1961-09-25T00:00:00",
+            "gender": "female",
+            "death_date": null,
+            "birth_place": "New York",
+            "occupation": "Retired",
+            "notes": null
+        },
+        {
+            "id": "3",
+            "name": "Lynjai",
+            "birth_date": "1981-08-31T00:00:00",
+            "gender": "female",
+            "death_date": null,
+            "birth_place": "washington dc",
+            "occupation": null,
+            "notes": null
+        }
+    ],
+    "relations": []
+}
